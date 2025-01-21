@@ -19,3 +19,13 @@ html, body, #diagram {
     padding: 5px;
     border-radius: 3px;
   }
+
+  .diagram-note2 {
+    background: rgba(112, 114, 223, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+  

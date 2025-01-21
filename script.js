@@ -130,6 +130,91 @@ var viewer = new BpmnJS({
       html: '<div class="diagram-note"> 3 </div>',
     });
 
+    // Tambah Status
+    overlays.add('Activity_1mhe83c', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: DRAFT </div>',
+    })
+
+    overlays.add('Activity_019j69b', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: COMPLETE </div>',
+    })
+
+    overlays.add('Activity_1444sng', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: APPLIED </div>',
+    })
+
+    overlays.add('Activity_14k1qr1', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: IN PROGRESS </div>',
+    })
+
+    overlays.add('Activity_1lwv1cd', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: INCOMPLETE </div>',
+    })
+
+    overlays.add('Activity_1ohe82d', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: MANUAL VERIFICATION </div>',
+    })
+
+    overlays.add('Activity_16dw91q', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: WAITING APPROVAL </div>',
+    })
+    
+    overlays.add('Activity_0egmwhs', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: WAITING APPROVAL </div>',
+    })
+
+    overlays.add('Activity_15iiq2a', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: WAITING APPROVAL </div>',
+    })
+
+    overlays.add('Activity_136cno8', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: WAITING APPROVAL </div>',
+    })
+
+    overlays.add('Activity_0hzulev', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: VERIFIED DOKUMEN </div>',
+    })
+
+    overlays.add('Activity_1qk238x', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: WAITING APPROVAL </div>',
+    })
+
+    overlays.add('Activity_18uzooa', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: VERIFIED </div>',
+    })
+
+    overlays.add('Activity_0nmr3cx', "note2", {
+      position: { top: 82, right: 95},
+      show: { minZoom: 0.7 },
+      html: '<div class="diagram-note"> STATUS: VERIFIED </div>',
+    })
+
     // Colors
     var elementToColor = elementRegistry.get('Activity_1444sng');
 

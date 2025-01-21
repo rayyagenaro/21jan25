@@ -164,7 +164,7 @@
     <endEvent id="Event_0m49ray" name="Selesai">
       <incoming>Flow_0wv0i3h</incoming>
     </endEvent>
-    <task id="Activity_0nmr3cx" name="Menerima Nomor DRT">
+    <task id="Activity_0nmr3cx" name="Terima Nomor DRT">
       <incoming>Flow_0ee4l8f</incoming>
       <outgoing>Flow_0wv0i3h</outgoing>
       <property id="Property_1u955ve" name="__targetRef_placeholder" />
