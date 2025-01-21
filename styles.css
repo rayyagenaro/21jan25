@@ -1,0 +1,21 @@
+html, body, #diagram {
+    height: 100%
+  }
+
+  .highlight:not(.djs-connection) .djs-visual > :nth-child(1) {
+    fill: green !important; /* color elements as green */
+  }
+
+  .highlight-overlay {
+    background-color: green; /* color elements as green */
+    opacity: 0.4;
+    pointer-events: none; /* no pointer events, allows clicking through onto the element */
+    border-radius: 10px;
+  }
+
+  .diagram-note {
+    background: rgba(14, 211, 14, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+  }
