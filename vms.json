@@ -1,0 +1,12 @@
+{
+  "registration": 3,
+  "draft": 12,
+  "complete": 11,
+  "applied": 23,
+  "in_progress": 4,
+  "waiting_approval": 20,
+  "incomplete": 9,
+  "verified": 30,
+  "rejected": 15,
+  "manual_verif": 5
+}
