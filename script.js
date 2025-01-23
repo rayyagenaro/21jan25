@@ -229,4 +229,4 @@ var viewer = new BpmnJS({
   }
 
   // load + show diagram
-  $.get('bpmn1.bpmn', showDiagram, 'text');
+  $.get('vms.bpmn', showDiagram, 'text');
